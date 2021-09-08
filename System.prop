@@ -1,0 +1,397 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+# build porp start
+
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=OnePlus8Pro
+ro.product.brand=OnePlus
+ro.product.device=OnePlus8Pro
+ro.product.manufacturer=OnePlus
+ro.product.model=IN2023
+ro.product.name=OnePlus8Pro
+
+# touch
+touch.pressure.scale=0
+persist.sys.ui.hw=1
+touch.size.calibration=diameter
+touch.size.scale=1
+touch.size.bias=0
+touch.size.isSummed=0
+touch.orientation.calibration=none
+touch.distance.calibration=none
+touch.distance.scale=0
+touch.coverage.calibration=box
+touch.gestureMode=spots
+MultitouchMinDistance=1px
+MultitouchSettleInterval=1ms
+TapInterval=1ms
+TapSlop=1px
+view.scroll_friction=0
+ro.max.fling_velocity=12000
+ro.min.fling_velocity=8000
+
+# Speed
+pm.dexopt.first-boot=speed
+pm.dexopt.install=speed
+pm.dexopt.bg-dexopt=speed
+pm.dexopt.boot=speed
+
+# Performance
+debug.sf.latch_unsignaled=1
+debug.sf.hw=1
+debug.performance.tuning=1
+debug.egl.profiler=1
+debug.egl.hw=1
+debug.composition.type=gpu
+
+# Optimize Game
+persist.vendor.dfps.level=120
+ro.vendor.cabc.enable=true
+ro.vendor.bcbc.enable=true
+persist.vendor.power.dfps.level=0
+ro.vendor.display.default_fps=120
+vendor.display.use_layer_ext=0
+persist.vendor.vcb.ability=true
+persist.vendor.vcb.enable=true
+vendor.display.enable_optimize_refresh=1
+vendor.display.enable_optimize_refresh=true
+
+# Graphic properties
+persist.demo.hdmirotationlock=false
+persist.hwc.enable_vds=1
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true
+
+# Doze parameters
+pm.sleep_mode=1
+
+# Doze
+doze.display.supported=true
+doze.pulse.notifications=true
+doze.use.accelerometer=0
+doze.pickup.vibration.threshold=2000
+doze.pulse.brightness=5
+doze.pulse.delay.in=200
+doze.pulse.duration.in=1000
+doze.pulse.duration.out=1000
+doze.pulse.duration.visible=3000
+doze.pulse.proxcheck=0
+doze.pulse.schedule=1s,10s,30s,60s,120s,180s
+doze.pulse.schedule.resets=3
+doze.pulse.sigmotion=0
+doze.shake.acc.threshold=10
+doze.vibrate.sigmotion=0
+debug.doze.component=0
+
+# SystemUI
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
+# Signal Boost
+bt.max.hfpclient.connections=1
+
+# Open the first-in-first-out interface thread
+ro.telephony.call_ring.delay=0
+ring.delay=0
+
+#Turn off vertical sync (V-Sync)
+debug.hwui.disable_vsync=true
+hwui.disable_vsync=true
+
+# Internet Tweaks
+ro.ril.hsxpa=2
+ro.ril.hspa=2
+ro.ril.lte=2
+ro.ril.ltea=2
+ro.ril.hep=0
+ro.ril.def.agps.mode=2
+ro.ril.enable.3g.prefix=1
+ro.ril.enable.4g.prefix=1
+ro.ril.htcmaskw1.bitmask=4294967295
+ro.ril.htcmaskw1=14449
+ro.ril.enable.dtm=1
+ro.ril.hspaclass=15
+ro.ril.lteclass=15
+ro.ril.gprsclass=15
+ro.ril.hsupa.category=10
+ro.ril.hsdpa.category=30
+ro.ril.lte.category=10
+ro.ril.ltea.category=30
+ro.ril.enable.a51=1
+ro.ril.enable.a52=1
+ro.ril.enable.a53=1
+ro.ril.enable.a54=1
+ro.ril.enable.a55=1
+
+# Data Speed Tweaks
+# Must be supported by network - AT&T supports this. Allows downloading and talking at the same time.
+ro.ril.enable.dtm=1
+# gprs (edge) speed settings
+ro.ril.gprsclass=34
+# HSPA+ Download speed settings by category. Cat 28 is the highest
+ro.ril.hsdpa.category=28
+# HSPA+ Upload speed settings by category. Cat 9 is highest, 7 seems to work just fine.
+ro.ril.hsupa.category=8
+# setting to enable hspa+ for the upload and download
+ro.ril.hsxpa=5
+# Other Setting
+ro.ril.transmitpower=true
+ro.ril.hep=1
+ro.ril.def.agps.feature=1
+ro.ril.enable.a52=1
+ro.ril.enable.a53=1
+ro.ril.enable.3g.prefix=1
+
+# Wireless + TCP Speed & Security Tweaks
+net.core.wmem_max=1048576
+net.core.rmem_max=1048576
+net.core.rmem_default=262144
+net.core.wmem_default=262144
+net.core.optmem_max=20480
+net.unix.max_dgram_qlen=50
+net.ipv4.tcp_ecn=0
+net.ipv4.route.flush=1
+net.ipv4.tcp_rfc1337=1
+net.ipv4.ip_no_pmtu_disc=0
+net.ipv4.tcp_sack=1
+net.ipv4.tcp_fack=1
+net.ipv4.tcp_window_scaling=1
+net.ipv4.tcp_timestamps=1
+net.ipv4.tcp_rmem=4096 39000 187000
+net.ipv4.tcp_wmem=4096 39000 187000
+net.ipv4.tcp_mem=187000 187000 187000
+net.ipv4.tcp_no_metrics_save=1
+net.ipv4.tcp_moderate_rcvbuf=1
+net.ipv6.tcp_ecn=0
+net.ipv6.route.flush=1
+net.ipv6.tcp_rfc1337=1
+net.ipv6.ip_no_pmtu_disc=0
+net.ipv6.tcp_sack=1
+net.ipv6.tcp_fack=1
+net.ipv6.tcp_window_scaling=1
+net.ipv6.tcp_timestamps=1
+net.ipv6.tcp_rmem=4096 39000 187000
+net.ipv6.tcp_wmem=4096 39000 187000
+net.ipv6.tcp_mem=187000 187000 187000
+net.ipv6.tcp_no_metrics_save=1
+net.ipv6.tcp_moderate_rcvbuf=1
+net.tethering.noprovisioning=true
+wifi.supplicant_scan_interval=180
+
+# Signal Tweaks
+persist.cust.tel.eons=1 
+ro.config.combined_signal=true
+telephony.lteOnCdmaDevice=1
+ro.telephony.default_network=33,33
+
+# SMS APN Retry
+ro.gsm.2nd_data_retry_config=max/_retries=3, 2000, 2000, 2000
+
+# Support For IPV4 and IPV6
+persist.telephony.support.ipv6=0
+persist.telephony.support.ipv4=1
+
+# Better call voice quality
+ro.ril.enable.amr.wideband=1
+
+# Cloudflare DNS
+net.eth0.dns1=1.1.1.1
+net.eth0.dns2=1.0.0.1
+
+net.dns1=1.1.1.1
+net.dns2=1.0.0.1
+
+net.ppp0.dns1=1.1.1.1
+net.ppp0.dns2=1.0.0.1
+
+net.rmnet0.dns1=1.1.1.1
+net.rmnet0.dns2=1.0.0.1
+
+net.rmnet1.dns1=1.1.1.1
+net.rmnet1.dns2=1.0.0.1
+
+net.pdpbr1.dns1=1.1.1.1
+net.pdpbr1.dns2=1.0.0.1
+
+net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,409 6,163 84,256960
+net.tcp.buffersize.umts=4096,8 7380,256960,4096,163 84,256960
+net.tcp.buffersize.gprs=4096,8 7380,256960,4096,163 84,256960
+net.tcp.buffersize.edge=4096,8 7380,256960,4096,163
+
+# Sdcard Speed Tweaks
+echo "2048" > /sys/devices/virtual/bdi/179:0/read_ahead_kb(Class 4 And Above)
+echo "512" > /sys/devices/virtual/bdi/179:0/read_ahead_kb (Class 3 And Lower)
+
+#!/system/bin/sh
+MODDIR=${0%/*}
+
+# MTK PARAMETERS SOUND
+ro.config.audio.speaker_boost=yes
+ro.config.audio.headphones_boost=yes
+ro.config.audio.handset_boost=yes
+ro.have_aacencode_feature=1
+ro.mtk_audio_ape_support=1
+ro.mtk_flv_playback_support=1
+ro.mtk_wmv_playback_support=1
+persist.af.losslessbt.on=1
+ro.camera.sound.forced=1
+
+# SOUND PARAMETERS
+media.stagefright.audio.sink=384
+af.fast.track.multiplier=2
+vendor.audio_hal.period_multiplier=3 
+audio.offload.buffer.size.kb=384
+vendor.mm.enable.qcom_parser=80255037
+persist.mm.enable.prefetch=true
+ro.af.client_heap_size_kbyte=7168
+ro.mediacodec.min_sample_rate=7350
+ro.mediacodec.max_sample_rate=2822400
+audio.sys.noisy.broadcast.delay=600
+audio.sys.offload.pstimeout.secs=3 
+audio.volume.headset.gain.depcal=true
+vendor.audio.adm.buffering.ms=2 
+vendor.audio.dolby.ds2.enabled=false 
+vendor.audio.dolby.ds2.hardbypass=false
+vendor.audio.offload.gapless.enabled=false 
+vendor.audio.offload.multiaac.enable=false 
+vendor.audio.offload.multiple.enabled=false 
+vendor.audio.offload.passthrough=false 
+vendor.audio.offload.track.enable=false 
+debug.stagefright.omx_default_rank=0
+
+
+# DECODERS&ENCODERS SOUND
+ro.audio.monitorRotation=true
+mpq.audio.decode=true
+lpa.decode=false
+audio.decoder_override_check=true
+use.non-omx.mp3.decoder=false
+use.non-omx.aac.decoder=false
+lpa.use-stagefright=false
+lpa.releaselock=false
+vendor.audio.flac.sw.decoder.24bit=true
+vendor.audio.aac.sw.decoder.24bit=true
+vendor.audio.use.sw.alac.decoder=true
+vendor.audio.flac.sw.encoder.24bit=true
+vendor.audio.aac.sw.encoder.24bit=true
+vendor.audio.use.sw.ape.decoder=true
+qcom.hw.aac.encoder=true
+audio.hw.aac.decoder=true
+qcom.hw.aac.decoder=true
+persist.audio.format.24bit=true
+ro.qc.sdk.audio.fluencetype=none 
+ro.qc.sdk.audio.ssr=false 
+ro.vendor.audio.sdk.ssr=false 
+
+# HiFi PARAMETERS SOUND
+ro.audio.hifi=true
+persist.audio.hifi=true
+persist.audio.hifi.volume=70
+persist.vendor.audio.hifi=true
+persist.audio.hifi.int_codec=true
+vendor.audio.feature.hifi_audio.enable=true
+ro.vendor.audio.hifi=true
+persist.vendor.audio.hifi.int_codec=true
+ro.hardware.hifi.support=true
+
+# RADIO PARAMETERS SOUND
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.data_con_rprt=1
+persist.radio.calls.on.ims=1
+persist.data.iwlan.enable=true 
+persist.vendor.data.iwlan.enable=true
+persist.vendor.radio.add_power_save=1 
+persist.vendor.radio.apm_sim_not_pwdn=1 
+persist.vendor.radio.block_allow_data=1 
+persist.vendor.radio.custom_ecc=1 
+persist.vendor.radio.do_not_use_oprt_db=true 
+persist.vendor.radio.mt_sms_ack=19 
+persist.vendor.radio.multisim.config=dsds 
+persist.vendor.radio.procedure_bytes=SKIP 
+persist.vendor.radio.rat_on=combine 
+persist.vendor.radio.report_codec=1 
+persist.vendor.radio.sib16_support=1 
+persist.vendor.radio.unicode_op_names=true 
+persist.vendor.radio.vdp_on_ims_cap=1 
+persist.vendor.radio.wait_for_pbm=1 
+persist.vendor.sensors.direct_channel=false 
+persist.vendor.service.bdroid.ssrlvl=3 
+
+# BT PARAMETERS SOUND
+persist.service.btui.use_aptx=1
+persist.bt.enableAptXHD=true
+persist.bt.a2dp.aptx_disable=false
+persist.bt.a2dp.aptx_hd_disable=false
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac 
+persist.bluetooth.a2dp_offload.disabled=false 
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac 
+persist.vendor.bt.aac_frm_ctl.enabled=true 
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac 
+persist.vendor.btstack.enable.splita2dp=true 
+persist.vendor.btstack.enable.twsplus=true 
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive 
+persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true 
+persist.vendor.qcom.bluetooth.enable.splita2dp=true 
+persist.vendor.qcom.bluetooth.twsp_state.enabled=false 
+ro.bluetooth.emb_wp_mode=false 
+ro.bluetooth.wipower=false 
+ro.vendor.bluetooth.wipower=false 
+persist.vendor.bt.soc.scram_freqs=192
+persist.bt.a2dp.aac_disable=false
+persist.vendor.bt.aac_frm_ctl.enabled=true
+audio.effect.a2dp.enable=1
+vendor.audio.effect.a2dp.enable=1
+vendor.btstack.absolute_volume=true
+persist.vendor.btstack.absolute_volume=true
+persist.bluetooth.avrcpversion=avrcp16
+persist.vendor.btstack.avrcp.pos_time=1000
+persist.bluetooth.enabledelayreports=true
+vendor.bt.pts.pbap=true
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.bt.a2dp.addr_check_enabled_for_aac=true
+
+# OTHER PARAMETERS SOUND
+persist.audio.lowlatency.rec=true
+audio.safx.pbe.enabled=false
+audio.playback.mch.downsample=false
+effect.reverb.pcm=1
+vendor.audio.playback.mch.downsample=false
+persist.vendor.audio.playback.mch.downsample=false
+vendor.audio.matrix.limiter.enable=0
+persist.vendor.audio.ambisonic.auto.profile=true
+vendor.audio.tunnel.encode=false
+tunnel.audio.encode=false
+qc.tunnel.audio.encode=false
+vendor.av.offload.enable=false
+av.offload.enable=false
+qc.av.offload.enable=false
+audio.sys.noisy.broadcast.delay=600 
+audio.sys.offload.pstimeout.secs=3 
+audio.volume.headset.gain.depcal=true
+
+# DEEP BUFFER PARAMETERS
