@@ -625,7 +625,7 @@
                 <PERF_RES_THERMAL_POLICY Param1="8"/>
                 <PERF_RES_DRAM_CM_MGR Param1="1"/>
             </Activity>
-</Package>
+	    </Package>
         <Package name="com.GlobalSoFunny.Sausage">
             <Activity name="Common">
                 <PERF_RES_THERMAL_POLICY Param1="8"/>
