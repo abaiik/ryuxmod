@@ -1,0 +1,28 @@
+<filter-conf>
+	<version>20200119</version>
+	<isOpen>1</isOpen>
+	<filter-name>sys_high_temp_protect</filter-name>
+	<HighTemperatureProtectSwitch>false</HighTemperatureProtectSwitch> 
+	<HighTemperatureShutdownSwitch>false</HighTemperatureShutdownSwitch>
+	<HighTemperatureFirstStepSwitch>false</HighTemperatureFirstStepSwitch>
+	<CountBatteryChangedForFosUpdateTime>30</CountBatteryChangedForFosUpdateTime> 
+	<HighTemperatureShutdownUpdateTime>15</HighTemperatureShutdownUpdateTime>
+	<HighTemperatureProtectFirstStepIn>470</HighTemperatureProtectFirstStepIn>
+	<HighTemperatureProtectFirstStepOut>450</HighTemperatureProtectFirstStepOut>
+	<HighTemperatureProtectThresholdIn>580</HighTemperatureProtectThresholdIn> 
+	<HighTemperatureProtectThresholdOut>560</HighTemperatureProtectThresholdOut>
+	<HighTemperatureProtectShutDown>750</HighTemperatureProtectShutDown>
+	<MediumTemperatureProtectThreshold>10000</MediumTemperatureProtectThreshold>
+	<!-- 普通场景禁用闪光灯温度阈值 -->
+	<HighTemperatureDisableFlashLimit>450</HighTemperatureDisableFlashLimit>
+	<!-- 充电或打开热点场景，禁用闪光灯温度阈值 -->
+	<HighTemperatureDisableFlashChargeLimit>450</HighTemperatureDisableFlashChargeLimit>
+	<!-- 4k@60fps场景下，打开高温强制停止录像功能：true/false -->
+	<HighTemperatureControlVideoRecordSwitch>false</HighTemperatureControlVideoRecordSwitch>
+	<!-- 4k@60fps场景下，高温强制停止录像触发阈值 -->
+	<HighTemperatureDisableVideoRecordLimit>490</HighTemperatureDisableVideoRecordLimit>
+	<!-- 4k@60fps场景下，高温强制停止录像恢复阈值 -->
+	<HighTemperatureEnableVideoRecordLimit>470</HighTemperatureEnableVideoRecordLimit>
+	<!-- 退出相机阈值[realme需求，oppo暂不支持配置此功能，需从自研分支移植] -->
+	<HighTemperatureFinishCameraLimit>490</HighTemperatureFinishCameraLimit>
+</filter-conf>

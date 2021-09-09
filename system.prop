@@ -3,7 +3,7 @@
 # ro.sf.lcd_density=320
 # build porp start
 
-# props
+# Device Props
 ro.product.model=IN2023
 
 # touch
@@ -390,3 +390,7 @@ audio.sys.offload.pstimeout.secs=3
 audio.volume.headset.gain.depcal=true
 
 # DEEP BUFFER PARAMETERS
+
+
+
+
