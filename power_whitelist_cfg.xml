@@ -626,7 +626,7 @@
                 <PERF_RES_DRAM_CM_MGR Param1="1"/>
             </Activity>
 </Package>
-        <Package name="com.tencent.ig">
+        <Package name="com.GlobalSoFunny.Sausage">
             <Activity name="Common">
                 <PERF_RES_THERMAL_POLICY Param1="8"/>
                 <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="25"/>
