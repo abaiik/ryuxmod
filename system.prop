@@ -388,3 +388,6 @@ qc.av.offload.enable=false
 audio.sys.noisy.broadcast.delay=600 
 audio.sys.offload.pstimeout.secs=3 
 audio.volume.headset.gain.depcal=true
+
+# DEEP BUFFER PARAMETERS
+
