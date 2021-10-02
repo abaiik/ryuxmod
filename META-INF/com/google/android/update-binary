@@ -180,5 +180,5 @@ cd /
 $BOOTMODE || recovery_cleanup
 rm -rf $TMPDIR
 
-ui_print "≫ Tiati Bootloop Say 🥀"
+ui_print "≫ Success Installed 🥀"
 exit 0
