@@ -9,7 +9,6 @@ echo 1 > /sys/module/ged/parameters/boost_gpu_enable
 echo 1 > /sys/module/ged/parameters/gx_force_cpu_boost
 echo 1 > /sys/module/ged/parameters/boost_extra
 echo 1 >/sys/module/ged/parameters/gx_game_mode
-echo 1 >/sys/module/ged/parameters/gx_force_cpu_boost
 echo 1 > /sys/module/ged/parameters/boost_amp
 echo 1 > /sys/module/ged/parameters/enable_cpu_boost
 echo 1 > /sys/module/ged/parameters/enable_gpu_boost
@@ -19,6 +18,7 @@ echo 0 > /sys/module/ged/parameters/gpu_idle
 # Touch Sampling
 echo Enabling Game Touch Sampling Boost
 echo 1 > /proc/touchpanel/game_switch_enable
+echo 1 > /proc/touchpanel/oppo_tp_direction
 
 # CPU Load settings
 echo 0-7 > /dev/cpuset/foreground/cpus
