@@ -31,6 +31,57 @@ view.scroll_friction=0
 ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 
+# GPU Rendering
+debug.composition.type=c2d
+debug.egl.hw=1
+debug.sf.hw=1
+debug.enabletr=true
+debug.overlayui.enable=1
+debug.performance.tuning=1
+debug.gr.numframebuffers=3
+debug.kill_allocating_task=0
+dev.pm.dyn_samplingrate=1
+hw3d.force=1
+ro.secure=0
+hwui.disable_vsync=true
+hwui.render_dirty_regions=false
+persist.sys.composition.type=c2d
+persist.sys.ui.hw=1
+persist.sys.force_sw_gles=1
+persist.sys.use_dithering=1
+ro.config.disable.hw_accel=false
+ro.config.enable.hw_accel=true
+ro.product.gpu.driver=1
+ro.fb.mode=1
+ro.vold.umsdirtyratio=20
+ro.sf.compbypass.enable=0
+video.accelerate.hw=1
+debug.egl.swapinterval=-60
+
+# Disable multitasking limits
+MIN_HIDDEN_APPS=false
+ACTIVITY_INACTIVE_RESET_TIME=false
+MIN_RECENT_TASKS=false
+PROC_START_TIMEOUT=false
+CPU_MIN_CHECK_DURATION=false
+GC_TIMEOUT=false
+SERVICE_TIMEOUT=false
+MIN_CRASH_INTERVAL=false
+ENFORCE_PROCESS_LIMIT=false
+
+# Enable quick start support if avail
+ro.quick_start_support=1
+
+# Try to tune some screen smoothness
+windowsmgr.max_events_per_sec=500
+
+# PNP optimizations
+persist.sys.pnp.keyboost=on
+persist.sys.pnp.relaunch.optimize=on
+persist.sys.pnp.resume.optimize=on
+persist.sys.pnp.screen.optimize=on
+persist.sys.pnp.topact.optimize=on
+
 # Speed
 pm.dexopt.first-boot=speed
 pm.dexopt.install=speed
@@ -395,4 +446,3 @@ audio.sys.offload.pstimeout.secs=3
 audio.volume.headset.gain.depcal=true
 
 # DEEP BUFFER PARAMETERS
-
