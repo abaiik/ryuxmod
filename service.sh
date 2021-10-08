@@ -18,7 +18,6 @@ echo 0 > /sys/module/ged/parameters/gpu_idle
 # Touch Sampling
 echo Enabling Game Touch Sampling Boost
 echo 1 > /proc/touchpanel/game_switch_enable
-echo 1 > /proc/touchpanel/oppo_tp_direction
 
 # CPU Load settings
 echo 0-7 > /dev/cpuset/foreground/cpus
