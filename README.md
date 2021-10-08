@@ -1,5 +1,6 @@
 # Thermal-X
 Module Magisk For Realme G90T Series
+
 Maybe Works in (Mediatek GPU Mali)
 
 Feature :
