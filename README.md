@@ -1,8 +1,6 @@
 # Thermal-X
 Module Magisk For Realme G90T Series
 
-Maybe Works in (Mediatek GPU Mali)
-
 Feature :
     - Disable Thermal
     - GPU Boost
@@ -19,6 +17,3 @@ Feature :
     - Wifi Bounding MTK
     - Unlock 90fps Game
     - Include Props OnePlus 8 Pro
-
-Attention :
-This will make your device overheat because it enters performance mode, Don't complain if it feels hot, because you yourself want smooth performance.

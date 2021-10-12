@@ -35,6 +35,10 @@ busybox mkswap /dev/block/zram0
 busybox swapon /dev/block/zram0
 
 sleep 40
+echo 35 > /dev/stune/foreground/schedtune.boost
+chmod 0444 /dev/stune/foreground/schedtune.boost
+echo 35 > /dev/stune/schedtune.boost
+chmod 0444 /dev/stune/schedtune.boost 
 echo 1 > /proc/cpufreq/cpufreq_cci_mode
 chmod 0444 /proc/cpufreq/cpufreq_cci_mode
 chmod 0444 /proc/cpufreq/cpufreq_power_mode
