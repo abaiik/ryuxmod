@@ -49,14 +49,6 @@ echo 9 1 > /proc/ppm/policy_status
 echo Done
 echo
 
-# change Governor to performance
-echo Change Governor to performance
-echo performance > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
-echo performance > /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
-echo Done
-echo
-
-	
 # increase performance
 echo 1 > /sys/devices/system/cpu/perf/enable
 
