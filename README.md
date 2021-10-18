@@ -1,7 +1,8 @@
+![photo_2021-10-18_23-45-22](https://user-images.githubusercontent.com/27819385/137773749-596228c6-7116-4035-b18b-18f937daa715.jpg)
+
+
 # 𝐓𝐡𝐞𝐫𝐦𝐚𝐥 𝐱
 Module Magisk For Realme G90T Series
-
-https://telegra.ph/file/0b6a7086be797274fa8fa.jpg
 
 
 Feature :
