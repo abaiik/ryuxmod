@@ -1,6 +1,8 @@
 # 𝐓𝐡𝐞𝐫𝐦𝐚𝐥 𝐱
 Module Magisk For Realme G90T Series
 
+https://telegra.ph/file/0b6a7086be797274fa8fa.jpg
+
 
 Feature :
 
