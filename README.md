@@ -1,7 +1,10 @@
 # 𝐓𝐡𝐞𝐫𝐦𝐚𝐥 𝐱
 Module Magisk For Realme G90T Series
 
+
 Feature :
+
+
     - Disable Thermal
     - GPU Boost
     - Doze Mode
