@@ -22,7 +22,7 @@ Feature :
     - Wifi Range Fixer
     - Wifi Bounding MTK
     - Unlock 90fps Game
-    - Include Props OnePlus 8 Pro
+    - Include Props Realme GT Neo
 
 Special Thanks :
 - @abaiik
