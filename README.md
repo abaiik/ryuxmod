@@ -25,8 +25,8 @@ Feature :
     - Include Props OnePlus 8 Pro
 
 Special Thanks :
-@abaiik
-@zidaneharith For Help And Script
+- @abaiik
+- @zidaneharith For Help And Script
 
 
 Attention :
