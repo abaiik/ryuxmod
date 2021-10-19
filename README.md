@@ -23,3 +23,11 @@ Feature :
     - Wifi Bounding MTK
     - Unlock 90fps Game
     - Include Props OnePlus 8 Pro
+
+Special Thanks :
+@abaiik
+@zidaneharith For Help And Script
+
+
+Attention :
+This will make your device overheat because it enters performance mode, Don't complain if it feels hot, because you yourself want smooth performance.
