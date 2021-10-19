@@ -3,24 +3,14 @@
 # ro.sf.lcd_density=320
 # build porp start
 
-# build porp start
-ro.product.brand=realme
-ro.product.model=RMX3031
-ro.build.product=RMX3031
-ro.vendor.product.oem=RMX3031
-ro.vendor.product.device.oem=RMX3031L1
-ro.product.system.brand=realme
-ro.product.system.manufacturer=realme
-ro.product.system.model=RMX3031
-ro.product.bootimage.brand=realme
-ro.product.bootimage.manufacturer=realme
-ro.product.bootimage.model=RMX3031
-ro.product.vendor.brand=realme
-ro.product.vendor.manufacturer=realme
-ro.product.vendor.model=RMX3031
-ro.product.odm.brand=realme
-ro.product.odm.manufacturer=realme
-ro.product.odm.model=RMX3031
+# Props
+ro.build.product=OnePlus8Pro
+ro.product.brand=OnePlus
+ro.product.device=OnePlus8Pro
+ro.product.manufacturer=OnePlus
+ro.product.model=IN2023
+ro.product.name=OnePlus8Pro
+ro.opengles.version=196610
 
 # touch
 touch.pressure.scale=0
@@ -43,6 +33,7 @@ ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 
 # GPU
+debug.composition.type=skiagl
 debug.hwui.renderer=skiagl
 sys.use_fifo_ui=1
 persist.device_config.runtime_native.usap_pool_enabled=true
