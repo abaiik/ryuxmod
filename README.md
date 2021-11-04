@@ -1,7 +1,8 @@
-# 𝗫-𝗠𝗼𝗱
+# RyuXmod
 Module Magisk For Realme G90T Series
 
 Feature :
+
     - Disable Thermal
     - GPU Boost
     - Doze Mode
