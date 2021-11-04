@@ -307,10 +307,6 @@ net.tcp.buffersize.umts=4096,8 7380,256960,4096,163 84,256960
 net.tcp.buffersize.gprs=4096,8 7380,256960,4096,163 84,256960
 net.tcp.buffersize.edge=4096,8 7380,256960,4096,163
 
-# Sdcard Speed Tweaks
-echo "2048" > /sys/devices/virtual/bdi/179:0/read_ahead_kb(Class 4 And Above)
-echo "512" > /sys/devices/virtual/bdi/179:0/read_ahead_kb (Class 3 And Lower)
-
 #!/system/bin/sh
 MODDIR=${0%/*}
 
