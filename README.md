@@ -1,13 +1,7 @@
-![photo_2021-10-18_23-45-22](https://user-images.githubusercontent.com/27819385/137773749-596228c6-7116-4035-b18b-18f937daa715.jpg)
-
-
-# 𝐓𝐡𝐞𝐫𝐦𝐚𝐥 𝐱
+# 𝗫-𝗠𝗼𝗱
 Module Magisk For Realme G90T Series
 
-
 Feature :
-
-
     - Disable Thermal
     - GPU Boost
     - Doze Mode
@@ -22,12 +16,4 @@ Feature :
     - Wifi Range Fixer
     - Wifi Bounding MTK
     - Unlock 90fps Game
-    - Include Props OnePlus8Pro
-
-Special Thanks :
-- @abaiik
-- @zidaneharith For Help And Script
-
-
-Attention :
-This will make your device overheat because it enters performance mode, Don't complain if it feels hot, because you yourself want smooth performance.
+    - Include Props OnePlus 8 Pro

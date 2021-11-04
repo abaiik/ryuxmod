@@ -65,9 +65,6 @@ ENFORCE_PROCESS_LIMIT=false
 ro.quick_start_support=1
 persist.sys.purgeable_assets=1
 
-# Try to tune some screen smoothness
-windowsmgr.max_events_per_sec=500
-
 # Speed
 pm.dexopt.first-boot=speed
 pm.dexopt.install=speed
