@@ -92,6 +92,10 @@ echo 1 > /proc/cpufreq/cpufreq_cci_mode
 chmod 0444 /proc/cpufreq/cpufreq_cci_mode
 chmod 0444 /proc/cpufreq/cpufreq_power_mode
 
+# Sdcard Speed Tweaks
+echo "2048" > /sys/devices/virtual/bdi/179:0/read_ahead_kb(Class 4 And Above)
+echo "512" > /sys/devices/virtual/bdi/179:0/read_ahead_kb (Class 3 And Lower)
+
 
 echo This script made by @abaiik & @zidaneharith
 echo Last updated : 12:31p.m. 16/10/2021
