@@ -4,12 +4,39 @@
 # build porp start
 
 # Props
-ro.build.product=OnePlus8Pro
-ro.product.brand=OnePlus
-ro.product.device=OnePlus8Pro
-ro.product.manufacturer=OnePlus
-ro.product.model=IN2023
-ro.product.name=OnePlus8Pro
+ro.product.product.brand=google
+ro.product.product.device=raven
+ro.product.product.manufacturer=Google
+ro.product.product.model=Pixel 6 Pro
+ro.product.product.name=raven
+ro.product.vendor.brand=google
+ro.product.vendor.device=raven
+ro.product.vendor.manufacturer=Google
+ro.product.vendor.model=Pixel 6 Pro
+ro.product.vendor.name=raven
+ro.product.board=raven
+ro.soc.manufacturer=Google
+ro.product.system.brand=google
+ro.product.system.device=generic
+ro.product.system.manufacturer=Google
+ro.product.system.model=mainline
+ro.product.system.name=mainline
+ro.build.product=raven
+ro.product.brand=google
+ro.product.device=raven
+ro.product.manufacturer=Google
+ro.product.model=Pixel 6 Pro
+ro.product.name=raven
+ro.product.system_ext.brand=google
+ro.product.system_ext.device=raven
+ro.product.system_ext.manufacturer=Google
+ro.product.system_ext.model=Pixel 6 Pro
+ro.product.system_ext.name=raven
+ro.product.odm.brand=google
+ro.product.odm.device=raven
+ro.product.odm.manufacturer=Google
+ro.product.odm.model=Pixel 6 Pro
+ro.product.odm.name=raven
 
 
 # touch
