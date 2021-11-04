@@ -1,4 +1,4 @@
-# RyuXmod
+# RyuXmod (Pixel 6 Pro)
 Module Magisk For Realme G90T Series
 
 Feature :
