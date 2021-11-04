@@ -10,7 +10,7 @@ ro.product.device=OnePlus8Pro
 ro.product.manufacturer=OnePlus
 ro.product.model=IN2023
 ro.product.name=OnePlus8Pro
-ro.opengles.version=196610
+
 
 # touch
 touch.pressure.scale=0
@@ -33,6 +33,7 @@ ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 
 # GPU
+ro.opengles.version=196610
 debug.composition.type=skiagl
 debug.hwui.renderer=skiagl
 sys.use_fifo_ui=1
