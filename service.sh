@@ -98,4 +98,4 @@ echo "512" > /sys/devices/virtual/bdi/179:0/read_ahead_kb (Class 3 And Lower)
 
 
 echo This script made by @abaiik & @zidaneharith
-echo Last updated : 12:31p.m. 16/10/2021
+echo Last updated : 11:34p.m. 9/11/2021
