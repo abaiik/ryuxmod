@@ -1,5 +1,5 @@
 # RyuXmod
-Module Magisk For Realme G90T Series
+Module Magisk For Realme G90T/G95 Series
 
 Feature :
 
