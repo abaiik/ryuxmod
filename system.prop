@@ -3,41 +3,52 @@
 # ro.sf.lcd_density=320
 # build porp start
 
-# Props
-ro.product.product.brand=google
-ro.product.product.device=raven
-ro.product.product.manufacturer=Google
-ro.product.product.model=Pixel 6 Pro
-ro.product.product.name=raven
-ro.product.vendor.brand=google
-ro.product.vendor.device=raven
-ro.product.vendor.manufacturer=Google
-ro.product.vendor.model=Pixel 6 Pro
-ro.product.vendor.name=raven
-ro.product.board=raven
-ro.soc.manufacturer=Google
-ro.product.system.brand=google
-ro.product.system.device=generic
-ro.product.system.manufacturer=Google
-ro.product.system.model=mainline
-ro.product.system.name=mainline
-ro.build.product=raven
-ro.product.brand=google
-ro.product.device=raven
-ro.product.manufacturer=Google
-ro.product.model=Pixel 6 Pro
-ro.product.name=raven
-ro.product.system_ext.brand=google
-ro.product.system_ext.device=raven
-ro.product.system_ext.manufacturer=Google
-ro.product.system_ext.model=Pixel 6 Pro
-ro.product.system_ext.name=raven
-ro.product.odm.brand=google
-ro.product.odm.device=raven
-ro.product.odm.manufacturer=Google
-ro.product.odm.model=Pixel 6 Pro
-ro.product.odm.name=raven
-
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=OnePlus8Pro
+ro.product.brand=OnePlus
+ro.product.device=OnePlus8Pro
+ro.product.manufacturer=OnePlus
+ro.product.model=IN2023
+ro.product.name=OnePlus8Pro
+ro.product.product.brand=OnePlus
+ro.product.product.device=OnePlus8Pro
+ro.product.product.manufacturer=OnePlus
+ro.product.product.model=IN2023
+ro.product.product.name=OnePlus8Pro
+ro.vendor.product.oem=IN2023
+ro.vendor.product.device.oem=OnePlus8Pro
+ro.product.system.brand=OnePlus
+ro.product.system.manufacturer=OnePlus
+ro.product.system.model=IN2023
+ro.product.bootimage.brand=OnePlus
+ro.product.bootimage.manufacturer=OnePlus
+ro.product.bootimage.model=IN2023
+ro.product.system.brand=OnePlus
+ro.product.system.device=OnePlus8Pro
+ro.product.system.manufacturer=OnePlus
+ro.product.system.name=OnePlus8Pro
+ro.product.system.model=IN2023
+ro.product.device=OnePlus8Pro
+ro.build.user=OnePlus
+ro.build.flavor=OnePlus8Pro-user
+ro.build.description=OnePlus8Pro-user 10 
+ro.common.soft=OnePlus8Pro
+ro.display.series=OnePlus 8 Pro
+ro.product.vendor.brand=OnePlus
+ro.product.vendor.device=OnePlus8Pro
+ro.product.vendor.manufacturer=OnePlus
+ro.product.vendor.model=IN2023
+ro.product.vendor.name=OnePlus8Pro
+ro.product.system_ext.brand=OnePlus
+ro.product.system_ext.device=OnePlus8pro
+ro.product.system_ext.manufacturer=OnePlus
+ro.product.system_ext.model=IN2023
+ro.product.system_ext.name=OnePlus8Pro
+ro.product.odm.brand=OnePlus
+ro.product.odm.device=OnePlus8Pro
+ro.product.odm.manufacturer=OnePlus
+ro.product.odm.model=IN2023
+ro.product.odm.name=OnePlus8Pro
 
 # touch
 touch.pressure.scale=0
@@ -333,20 +344,6 @@ net.tcp.buffersize.wifi=4096,87380,256960,409 6,163 84,256960
 net.tcp.buffersize.umts=4096,8 7380,256960,4096,163 84,256960
 net.tcp.buffersize.gprs=4096,8 7380,256960,4096,163 84,256960
 net.tcp.buffersize.edge=4096,8 7380,256960,4096,163
-
-#!/system/bin/sh
-MODDIR=${0%/*}
-
-# MTK PARAMETERS SOUND
-ro.config.audio.speaker_boost=yes
-ro.config.audio.headphones_boost=yes
-ro.config.audio.handset_boost=yes
-ro.have_aacencode_feature=1
-ro.mtk_audio_ape_support=1
-ro.mtk_flv_playback_support=1
-ro.mtk_wmv_playback_support=1
-persist.af.losslessbt.on=1
-ro.camera.sound.forced=1
 
 # Audio enhancer
 persist.audio.fluence.mode=endfire

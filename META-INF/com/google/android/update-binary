@@ -29,7 +29,7 @@ is_legacy_script() {
 }
 
 print_modname() {
-ui_print ""
+ ui_print ""
 ui_print ""
 ui_print "     █████████████████████████████████████████████"
 ui_print "     █▄─▄▄▀█▄─█─▄█▄─██─▄█▄─▀─▄█▄─▀█▀─▄█─▄▄─█▄─▄▄▀█"
@@ -58,14 +58,13 @@ ui_print "     ≫ Max Better Mode Performance ✔"
 ui_print "✬"
 ui_print "     ≫ Change Props To OnePlus8Pro (IN2023) ✔"
 ui_print ""
-ui_print "Support https://t.me/doc_abaiik "
+ui_print "Support https://t.me/projectxid "
 ui_print "Special Thanks for @abaiik & @zidaneharith "
 ui_print ""
 ui_print ""
 ui_print ""
 ui_print ""
 ui_print ""
-sleep 4
 }
 
 ##############
@@ -196,6 +195,5 @@ cd /
 $BOOTMODE || recovery_cleanup
 rm -rf $TMPDIR
 
-ui_print " ≫ 𝗦𝘂𝗰𝗰𝗲𝘀𝘀 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗲𝗱 "
-ui_print " 𝘽𝙚𝙩𝙩𝙚𝙧 𝙥𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚 𝙖𝙣𝙙 𝙢𝙖𝙭𝙞𝙢𝙪𝙢 𝙚𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙚 "
+ui_print "INSTALLED SUCCESS"
 exit 0
