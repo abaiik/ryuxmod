@@ -46,7 +46,7 @@ echo 9 1 > /proc/ppm/policy_status
 echo 1 > /sys/devices/system/cpu/perf/enable
 	
 #Game Touch Sampling
-echo 1 > /proc/touchpanel/game_switch_enable
+echo 0 > /sys/kernel/oppo_display/LCM_CABC
 
 # Fix Touch Screen
 echo Fix Touch Screen by enable Oppo TP Direction
