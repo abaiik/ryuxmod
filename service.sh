@@ -16,13 +16,13 @@ echo 0 > /sys/module/ged/parameters/gpu_idle
 echo GED Modules enabled
 echo
 	
-echo Change CPU Mode to Sports Mode
+# Set GPU Power Policy
+echo Change GPU Power Policy to Always On
+echo 1 > /proc/mali/always_on
 
 # change CPU mode
 echo 3 > /proc/cpufreq/cpufreq_power_mode
 echo 1 > /proc/cpufreq/cpufreq_cci_mode
-echo Done
-echo
 	
 echo Change kernel mode to HMP Mode
 	
@@ -44,18 +44,22 @@ echo 9 1 > /proc/ppm/policy_status
 
 # increase performance
 echo 1 > /sys/devices/system/cpu/perf/enable
-
-#Game Touch Sampling
-echo Enabling Game Touch Sampling Boost
 	
 #Game Touch Sampling
 echo 1 > /proc/touchpanel/game_switch_enable
-echo Done
-echo
 
-#CPUStune
-echo CPU Tuning time
+# Fix Touch Screen
+echo Fix Touch Screen by enable Oppo TP Direction
+echo 1 > /proc/touchpanel/oppo_tp_direction
 	
+# Disable CABC 
+echo Disable CABC Mode for best experience
+echo 0 > /sys/kernel/oppo_display/cabc
+	
+# POWERHAL SPORT MODE
+echo Add some games to sport mode
+echo -e "com.mobile.legends\ncom.tencent.ig\ncom.miHoYo.GenshinImpact\ncom.tencent.tmgp.pubgmhd\ncom.dts.freefireth\ncom.dts.freefiremax\njp.konami.pesam\ncom.pubg.newstate\ncom.garena.game.codm\ncom.pubg.imobile\ncom.ea.gp.apexlegendsmobilefps\ncom.riotgames.league.wildrift\n" > /data/vendor/powerhal/smart
+
 # CPU Load settings
 echo 0-7 > /dev/cpuset/foreground/cpus
 echo 0-3 > /dev/cpuset/background/cpus
@@ -73,4 +77,4 @@ chmod 0444 /proc/cpufreq/cpufreq_cci_mode
 chmod 0444 /proc/cpufreq/cpufreq_power_mode
 
 echo This script made by @abaiik & @zidaneharith
-echo Last updated : 12:31p.m. 16/10/2021
+echo Last updated : 22:48p.m. 27/12/2021

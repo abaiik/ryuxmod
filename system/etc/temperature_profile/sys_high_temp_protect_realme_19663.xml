@@ -14,9 +14,9 @@
 	<HighTemperatureProtectShutDown>750</HighTemperatureProtectShutDown>
 	<MediumTemperatureProtectThreshold>10000</MediumTemperatureProtectThreshold>
 	<!-- 普通场景禁用闪光灯温度阈值 -->
-	<HighTemperatureDisableFlashLimit>450</HighTemperatureDisableFlashLimit>
+	<HighTemperatureDisableFlashLimit>470</HighTemperatureDisableFlashLimit>
 	<!-- 充电或打开热点场景，禁用闪光灯温度阈值 -->
-	<HighTemperatureDisableFlashChargeLimit>450</HighTemperatureDisableFlashChargeLimit>
+	<HighTemperatureDisableFlashChargeLimit>470</HighTemperatureDisableFlashChargeLimit>
 	<!-- 4k@60fps场景下，打开高温强制停止录像功能：true/false -->
 	<HighTemperatureControlVideoRecordSwitch>false</HighTemperatureControlVideoRecordSwitch>
 	<!-- 4k@60fps场景下，高温强制停止录像触发阈值 -->
