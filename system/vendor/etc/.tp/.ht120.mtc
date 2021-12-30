@@ -5,9 +5,9 @@ Sec_CD_TM
 /proc/mtkcooler/mtktscpu-sysrst
 
 /proc/mtkcooler/cpu_adaptive_0
-EXIT 7000
+EXIT 5000
 /proc/mtkcooler/cpu_adaptive_1
-mtktsAP 70000 EXIT 6000
+mtktsAP 70000 EXIT 5000
 /proc/mtkcooler/mtktspmic-sysrst
 
 /proc/mtkcooler/mtktsbattery-sysrst
@@ -69,31 +69,27 @@ PUP_R 390000 PUP_VOLT 1800 OVER_CRITICAL_L 4397119 NTC_TABLE 7 1
 Sec_End
 Sec_RTP
 /proc/driver/thermal/tzcpu
-<<<<<<< HEAD
-1 136000 0 mtktscpu-sysrst 80000 0 cpu_adaptive_0 90000 0 cpu_adaptive_1 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 2000
-=======
-1 117000 0 mtktscpu-sysrst 70000 0 cpu_adaptive_0 59000 0 cpu_adaptive_1 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 200
->>>>>>> 3f183fa4b32ad42f252696893ca70d59d8feda89
+1 136000 0 mtktscpu-sysrst 90000 0 cpu_adaptive_0 60000 0 cpu_adaptive_1 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 200
 /proc/driver/thermal/tzpmic
-1 136000 0 mtktspmic-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
+1 145000 0 mtktspmic-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 /proc/driver/thermal/tzbattery
 1 60000 0 mtktsbattery-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 /proc/driver/thermal/tzpa
-1 120000 0 mtk-cl-shutdown01 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 2000
+1 120000 0 mtk-cl-shutdown01 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 /proc/driver/thermal/tzcharger
-1 120000 0 mtktscharger-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 2000
+1 120000 0 mtktscharger-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 /proc/driver/thermal/tzcharger2
-1 120000 0 mtktscharger2-rst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 2000
+1 120000 0 mtktscharger2-rst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 /proc/driver/thermal/tzwmt
-1 120000 0 mtktswmt-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 5000
+1 120000 0 mtktswmt-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 4000
 /proc/driver/thermal/tzbts
-1 100000 0 mtktsAP-sysrst 90000 0 mtk-cl-shutdown00 57000 0 mtk-cl-cam00 49001 0 abcct_lcmoff 49000 0 abcct_2nd_lcmoff 46001 0 abcct 46000 0 abcct_2nd 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
+1 120000 0 mtktsAP-sysrst 90000 0 mtk-cl-shutdown00 57000 0 mtk-cl-cam00 49001 0 abcct_lcmoff 49000 0 abcct_2nd_lcmoff 46001 0 abcct 46000 0 abcct_2nd 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 /proc/driver/thermal/tzbtspa
 1 120000 0 mtk-cl-shutdown02 110000 0 mtk-cl-mdoff 100000 0 mtk-cl-noIMS 68000 0 mtk-cl-adp-mutt 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 Sec_End
 Sec_TZ_TM
 /proc/mtktz/mtktscpu
-ma_len 4 
+ma_len 1 
 /proc/mtktz/mtktspmic
 ma_len 4 
 /proc/mtktz/mtktsbattery
