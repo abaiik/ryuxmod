@@ -79,7 +79,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 debug.sf.latch_unsignaled=1
 
 # Fps
-persist.sys.NV_FPSLIMIT=90
+persist.sys.NV_FPSLIMIT=120
 persist.sys.NV_POWERMODE=1
 persist.sys.NV_PROFVER=15
 persist.sys.NV_STEREOCTRL=0
@@ -314,7 +314,7 @@ ro.telephony.default_network=33,33
 ro.gsm.2nd_data_retry_config=max/_retries=3, 2000, 2000, 2000
 
 # Support For IPV4 and IPV6
-persist.telephony.support.ipv6=0
+persist.telephony.support.ipv6=1
 persist.telephony.support.ipv4=1
 
 # Better call voice quality
