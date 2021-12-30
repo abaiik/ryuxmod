@@ -69,7 +69,11 @@ PUP_R 390000 PUP_VOLT 1800 OVER_CRITICAL_L 4397119 NTC_TABLE 7 1
 Sec_End
 Sec_RTP
 /proc/driver/thermal/tzcpu
+<<<<<<< HEAD
 1 136000 0 mtktscpu-sysrst 80000 0 cpu_adaptive_0 90000 0 cpu_adaptive_1 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 2000
+=======
+1 117000 0 mtktscpu-sysrst 70000 0 cpu_adaptive_0 59000 0 cpu_adaptive_1 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 200
+>>>>>>> 3f183fa4b32ad42f252696893ca70d59d8feda89
 /proc/driver/thermal/tzpmic
 1 136000 0 mtktspmic-sysrst 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 0 0 no-cooler 1000
 /proc/driver/thermal/tzbattery
