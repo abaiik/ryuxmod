@@ -192,7 +192,7 @@ ro.media.enc.vid.mp4.enabled=1
 # Better Scrolling
 ro.min_pointer_dur=8
 ro.max.fling_velocity=12000
-windowsmgr.max_events_per_sec=60
+windowsmgr.max_events_per_sec=90
 
 # Faster streaming videos
 media.stagefright.enable-player=true
