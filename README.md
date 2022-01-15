@@ -1,5 +1,6 @@
 # RyuXmod
-Module Magisk For Realme G90/G90T/G95 Series
+ONLY FOR RM6785 
+(Realme 6, 6i, 6s, 7, N20P)
 
 Feature :
 
