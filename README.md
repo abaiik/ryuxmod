@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/af85bf66600608deae803.jpg" width="100">
+<img src="https://telegra.ph/file/af85bf66600608deae803.jpg" width="500">
 
 
 # RyuXmod
