@@ -6,18 +6,15 @@ ONLY FOR RM6785
 (Realme 6, 6i, 6s, 7, N20P)
 
 Feature :
-
     - Disable Thermal
     - GPU Boost
-    - Doze Mode
-    - Dex2oat
     - Include Busybox
-    - Disable Thermal
     - Tweak Signal
     - Touch Improvement
     - Sound Enchantment
-    - Performance Mode
     - Wifi Range Fixer
     - Wifi Bounding MTK
     - Unlock 90fps Game
+    - Improvements to All Apps
     - Include Varians Props
+    - Include Mode Performance, Balanced, Powersave
