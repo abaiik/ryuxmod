@@ -7,15 +7,15 @@ ONLY FOR RM6785
 
 Feature :
 
-    - Disable Thermal
-    - GPU Boost
-    - Include Busybox
-    - Tweak Signal
-    - Touch Improvement
-    - Sound Enchantment
-    - Wifi Range Fixer
-    - Wifi Bounding MTK
-    - Unlock 90fps Game
-    - Improvements to All Apps
-    - Include Varians Props
-    - Include Mode Performance, Balanced, Powersave
+  - Disable Thermal
+  - GPU Boost
+  - Include Busybox
+  - Tweak Signal
+  - Touch Improvement
+  - Sound Enchantment
+  - Wifi Range Fixer
+  - Wifi Bounding MTK
+  - Unlock 90fps Game
+  - Improvements to All Apps
+  - Include Varians Props
+  - Include Mode Performance, Balanced, Powersave
