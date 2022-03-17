@@ -20,4 +20,4 @@ Feature :
     - Wifi Range Fixer
     - Wifi Bounding MTK
     - Unlock 90fps Game
-    - Include Varians Props : OnePlus 8 Pro, Pixel 6 Pro, Realme GT Neo, Samsung Galaxy S10+
+    - Include Varians Props
