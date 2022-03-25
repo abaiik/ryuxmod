@@ -4,36 +4,37 @@
 # build porp start
 
 # ro.build.product is obsolete; use 
-ro.oppo.market.name=GT Neo
+#props realme GT Neo
+ro.oppo.market.name=GT Neo 2
 ro.product.brand=realme
-ro.product.device=RMX3031
+ro.product.device=RMX3370
 ro.product.manufacturer=realme
-ro.product.name=RXM3031
-ro.product.model=RMX3031
-ro.build.product=RMX3031
-ro.vendor.product.oem=RMX3031
-ro.product.device=RMX3031
-ro.vendor.product.device.oem=RMX3031
+ro.product.name=RMX3370
+ro.product.model=RMX3370
+ro.build.product=RMX3370
+ro.vendor.product.oem=RMX3370
+ro.product.device=RMX3370
+ro.vendor.product.device.oem=RMX3370
 ro.product.system.brand=realme
-ro.product.system.device=RMX3031
+ro.product.system.device=RMX3370
 ro.product.system.manufacturer=realme
-ro.product.system.model=RMX3031
-ro.product.system.name=RMX3031
+ro.product.system.model=RMX3370
+ro.product.system.name=RMX3370
 ro.product.bootimage.brand=realme
-ro.product.bootimage.device=RMX3031
+ro.product.bootimage.device=RMX3370
 ro.product.bootimage.manufacturer=realme
-ro.product.bootimage.model=RMX3031
-ro.product.bootimage.name=RMX3031
+ro.product.bootimage.model=RMX3370
+ro.product.bootimage.name=RMX3370
 ro.product.vendor.brand=realme
-ro.product.vendor.device=RMX3031
+ro.product.vendor.device=RMX3370
 ro.product.vendor.manufacturer=realme
-ro.product.vendor.model=RMX3031
-ro.product.vendor.name=RMX3031
+ro.product.vendor.model=RMX3370
+ro.product.vendor.name=RMX3370
 ro.product.odm.brand=realme
-ro.product.odm.device=RMX3031
+ro.product.odm.device=RMX3370
 ro.product.odm.manufacturer=realme
-ro.product.odm.model=RMX3031
-ro.product.odm.name=RMX3031
+ro.product.odm.model=RMX3370
+ro.product.odm.name=RMX3370
 
 # GPU
 ro.opengles.version=196610
@@ -53,17 +54,6 @@ persist.sys.NV_STEREOSEP=20
 ro.product.gpu.driver=1
 ENFORCE_PROCESS_LIMIT=false
 ro.wmt.blcr.enable=0
-
-# Disable multitasking limits
-MIN_HIDDEN_APPS=false
-ACTIVITY_INACTIVE_RESET_TIME=false
-MIN_RECENT_TASKS=false
-PROC_START_TIMEOUT=false
-CPU_MIN_CHECK_DURATION=false
-GC_TIMEOUT=false
-SERVICE_TIMEOUT=false
-MIN_CRASH_INTERVAL=false
-ENFORCE_PROCESS_LIMIT=false
 
 # Enable quick start support if avail
 ro.quick_start_support=1
@@ -104,27 +94,6 @@ ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.max_virtual_display_dimension=4096
 ro.surface_flinger.protected_contents=true
-
-# Doze parameters
-pm.sleep_mode=1
-
-# Doze
-doze.display.supported=true
-doze.pulse.notifications=true
-doze.use.accelerometer=0
-doze.pickup.vibration.threshold=2000
-doze.pulse.brightness=5
-doze.pulse.delay.in=200
-doze.pulse.duration.in=1000
-doze.pulse.duration.out=1000
-doze.pulse.duration.visible=3000
-doze.pulse.proxcheck=0
-doze.pulse.schedule=1s,10s,30s,60s,120s,180s
-doze.pulse.schedule.resets=3
-doze.pulse.sigmotion=0
-doze.shake.acc.threshold=10
-doze.vibrate.sigmotion=0
-debug.doze.component=0
 
 # SystemUI
 ro.config.fha_enable=true
@@ -225,6 +194,7 @@ ro.ril.hsdpa.category=28
 ro.ril.hsupa.category=8
 # setting to enable hspa+ for the upload and download
 ro.ril.hsxpa=5
+
 # Other Setting
 ro.ril.transmitpower=true
 ro.ril.hep=1
