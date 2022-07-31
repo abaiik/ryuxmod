@@ -18,3 +18,5 @@ Feature :
   - Improvements to All Apps
   - Include Varians Props
   - Include Mode Performance, Balanced, Powersave
+
+>_< https://t.me/projectxid
