@@ -19,4 +19,4 @@ Feature :
   - Include Varians Props
   - Include Mode Performance, Balanced, Powersave
 
->_< https://t.me/projectxid
+    https://t.me/projectxid
