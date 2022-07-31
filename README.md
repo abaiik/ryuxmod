@@ -9,7 +9,6 @@ Feature :
 
   - Disable Thermal
   - GPU Boost
-  - Include Busybox
   - Tweak Signal
   - Touch Improvement
   - Sound Enchantment
