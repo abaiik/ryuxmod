@@ -16,4 +16,4 @@ Feature :
   - Wifi Bounding MTK
   - Unlock 90 FPS Game
   - Improvements to All Apps & Games
-  - Include Varians Props
+  - Include Varians Device Props
