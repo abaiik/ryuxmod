@@ -1,5 +1,6 @@
 # This script will be executed in late_start service mode
 # More info in the main Magisk thread
+setenforce 0
 stop logd
 stop thermald
 
@@ -66,7 +67,7 @@ echo 0 > /sys/kernel/ccci/debug
 	
 # POWERHAL SPORT MODE
 echo Add some games to sport mode
-echo -e "com.mobile.legends\ncom.tencent.ig\ncom.miHoYo.GenshinImpact\ncom.tencent.tmgp.pubgmhd\ncom.dts.freefireth\ncom.dts.freefiremax\njp.konami.pesam\ncom.pubg.newstate\ncom.garena.game.codm\ncom.pubg.imobile\ncom.ea.gp.apexlegendsmobilefps\ncom.riotgames.league.wildrift\ncom.instagram.android\ncom.vng.pubgmobile\ncom.pubg.krmobile\ncom.rekoo.pubgm\ncom.roblox.client\ncom.google.android.youtube\ncom.GlobalSoFunny.Sausage\nskynet.cputhrottlingtest\ncom.neptune.domino\nid.dana\ncom.shopee.id\n" > /data/vendor/powerhal/smart
+echo -e "com.mobile.legends\ncom.tencent.ig\ncom.miHoYo.GenshinImpact\ncom.tencent.tmgp.pubgmhd\ncom.dts.freefireth\ncom.dts.freefiremax\njp.konami.pesam\ncom.pubg.newstate\ncom.garena.game.codm\ncom.pubg.imobile\ncom.ea.gp.apexlegendsmobilefps\ncom.riotgames.league.wildrift\ncom.instagram.android\ncom.vng.pubgmobile\ncom.pubg.krmobile\ncom.rekoo.pubgm\ncom.roblox.client\ncom.google.android.youtube\ncom.GlobalSoFunny.Sausage\nskynet.cputhrottlingtest\ncom.neptune.domino\nid.dana\ncom.shopee.id\ncom.twitter.android\n" > /data/vendor/powerhal/smart
 
 # CPU Load settings
 echo 0-7 > /dev/cpuset/foreground/cpus
@@ -115,4 +116,4 @@ echo
 	
 
 # This script made by @abaiik & @zidaneharith
-# Last updated : 18:23p.m. 30/12/2021
+# Last updated : 15:46p.m. 01/06/2022
