@@ -14,6 +14,6 @@ Feature :
   - Sound Enchantment
   - Wifi Range Fixer
   - Wifi Bounding MTK
-  - Unlock 90fps Game
-  - Improvements to All Apps
+  - Unlock 90 FPS Game
+  - Improvements to All Apps & Games
   - Include Varians Props
